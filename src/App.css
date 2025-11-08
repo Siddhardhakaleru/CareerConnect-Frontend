@@ -1,0 +1,176 @@
+/* Global Styles */
+body {
+  background-color: #f3f2ef;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  margin: 0;
+  color: #222;
+}
+.navbar {
+  background-color: #470ac2;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar button {
+  background: white;
+  color: #0a66c2;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-left: 10px;
+}
+
+.navbar button:hover {
+  background: #004182;
+  color: white;
+}
+
+.nav-user {
+  cursor: pointer;
+  color: white;
+  margin-right: 12px;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.nav-user:hover {
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
+/* Post Form */
+.post-form {
+  background: white;
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.post-form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  resize: none;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.post-form button {
+  background-color: #0a66c2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.post-form button:hover {
+  background-color: #004182;
+}
+
+/* Post Card */
+.card {
+  background: white;
+  margin: 20px auto;
+  padding: 15px 20px;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.card strong {
+  color: #0a66c2;
+  font-size: 15px;
+}
+
+.card p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.card button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 15px;
+  margin-right: 8px;
+}
+
+.card button:hover {
+  color: #0a66c2;
+}
+
+/* Auth Forms (Login/Signup) */
+.auth-card {
+  background: white;
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.auth-card h2 {
+  color: #0a66c2;
+  text-align: center;
+}
+
+.auth-card input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.auth-card button {
+  width: 100%;
+  background-color: #0a66c2;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.auth-card button:hover {
+  background-color: #004182;
+}
+
+a {
+  color: #0a66c2;
+  text-decoration: none;
+  margin-top: 254px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+svg.user-icon {
+    font-size: 28px;
+    padding: 6px;
+   
+}

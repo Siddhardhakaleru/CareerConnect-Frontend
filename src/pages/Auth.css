@@ -1,0 +1,94 @@
+/* Center everything */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f3f2ef;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+/* Card box */
+.auth-card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title & subtitle */
+.auth-card h2 {
+  color: #0a66c2;
+  margin-bottom: 5px;
+  font-size: 26px;
+}
+
+.subtitle {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+/* Form styling */
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+}
+
+.auth-card label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 3px;
+}
+
+.auth-card input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 15px;
+}
+
+.auth-card input:focus {
+  border-color: #0a66c2;
+  box-shadow: 0 0 4px rgba(10, 102, 194, 0.2);
+}
+
+/* Login button */
+.auth-card button {
+  margin-top: 10px;
+  background-color: #0a66c2;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.auth-card button:hover {
+  background-color: #004182;
+}
+
+/* Signup link */
+.switch-text {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #555;
+}
+
+.switch-text a {
+  color: #0a66c2;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.switch-text a:hover {
+  text-decoration: underline;
+}
